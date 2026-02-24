@@ -1,0 +1,197 @@
+* {
+background-color: #FEF7F8;
+}
+body {
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 1200px;
+}
+h1 {
+    font-size: 38px;
+    color: #592A2C;
+}
+h2 {
+    font-size: 26px;
+    color: #592A2C;
+}
+h3 {
+    font-size: 20px;
+    color: #592A2C;
+}
+p {
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid palevioletred;
+
+}
+    .header h1 {
+        margin-bottom: 20px;
+        color: #592A2C;
+        background-color: transparent;
+    }
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBEAEE;
+    padding: 10px 0;
+}
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 0;
+        margin: 0;
+        background-color: transparent;
+    }
+    nav ul li{
+        display: inline-block;
+        color: #592A2C;
+        text-decoration: none;
+        background-color: transparent;
+        margin-left: 0;
+    }
+    nav ul a{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    a {
+        color: #592A2C;
+        text-decoration: none;
+        margin: 0;
+        background-color: transparent;
+        font-size: 16px;
+    }
+    a:hover {
+        color: palevioletred;
+    }
+
+.origin {
+    display: block;
+    text-align: center;
+    border-bottom: pink 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .origin img {
+        max-width: 100%;
+        aspect-ratio: 4/1;
+        object-fit: cover;
+    }
+
+.listing {
+    border-bottom: pink 1px solid;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    .listing ul {
+        padding-left: 0;
+        margin: 0 auto;
+        width: fit-content;
+        text-align: left;
+    }
+    .listing ul li {
+        display: inline;
+        margin: 0 10px;
+        text-align: center;
+        color: #592A2C;
+    }
+    .listing ul li::before {
+        content: "•";
+        margin-right: 10px;
+        color: #592A2C;
+    }
+blockquote {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Italiana', serif;
+    font-style: italic;
+    color: rgb(96, 96, 96);
+    padding: 20px;
+    background-color: #FBEEF0;
+    border-left: palevioletred 4px solid;
+}
+.type-intro {
+    text-align: center;
+    border-bottom: pink 1px solid;
+ }
+    .type-intro img {
+        max-width: 100%;
+        aspect-ratio: 4/1;
+        object-fit: cover;
+    }
+    .type-intro ul li{
+        display: inline-block;
+        margin: 0 10px;
+        text-align: center;
+    }
+    .type-list li {
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+    }
+.type-details {
+    text-align: center;
+    border-bottom: pink 1px solid;
+    display: block;
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 100%;
+}
+    table, th, td {
+        border: 1px solid palevioletred;
+        color: #592A2C;
+    }
+    td {
+        padding: 10px;
+        text-align: left;
+        font-size: 16px;
+        color: rgb(96, 96, 96);
+    }
+    th {
+        background-color: #F7D3D8;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .table-section {
+        padding-bottom: 40px;
+        text-align: center;
+        border-bottom: pink 1px solid;
+        margin: 0 40px 0 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FBEAEE;
+    border-top: 2px solid palevioletred;
+}
+    footer p {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        background-color: transparent;
+    }
